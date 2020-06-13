@@ -44,7 +44,7 @@ section{
     width:100%;
     display:flex;
     flex-wrap:wrap;
- justify-content: space-between;
+ justify-content: space-around;
 }
 
 .element:nth-child(1){
@@ -55,7 +55,7 @@ section{
 }
 .element:nth-child(2){
 
-  width:auto;
+  width:60%;
 }
 
 .element:nth-child(3){
@@ -63,7 +63,7 @@ width:40%
 
 }
 .element:nth-child(4){
-    width:auto;
+    width:60%;
  
     
 }
@@ -75,7 +75,7 @@ width:40%
 }
 
 .element:nth-child(6){
-    width:auto;
+    width:60%;
 
 }
 
@@ -86,7 +86,7 @@ width:40%
 }
 
 .element:nth-child(8){
-    width:auto;
+    width:60%;
 
 
 }
@@ -97,7 +97,7 @@ width:40%
 }  
 
  .element:nth-child(10){
-    width:auto;
+    width:60%;
 
  }
 
