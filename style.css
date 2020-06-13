@@ -188,13 +188,14 @@ height:auto;
 .contact{
     padding-left:20%;
     height:auto;
+    flex:1;
 }
 
 .moi{
     padding-right:20%;
     padding-left:20%;
     height: auto;
-    flex: 1;
+    flex: 2;
 }
 
 .lolo{
