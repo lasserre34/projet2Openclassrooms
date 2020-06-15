@@ -198,6 +198,7 @@ flex-direction: column;
 }
 
 .photo{
+    padding-top: 10%;
 height:auto;
 text-align:center;
 
