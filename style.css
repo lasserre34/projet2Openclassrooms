@@ -10,7 +10,7 @@ body{
 
 #conteneur{
     display:flex;
-    height:auto;
+ height:auto;
     width:100%;
 }
 
@@ -35,10 +35,9 @@ color:#FFC107;
 .bloc1{
     
     width: 33.3%;
-    height:auto;
+    height:100%;
     background-color:#FFC107;
-display:flex;
-flex-direction: column;
+
 
 
 
@@ -155,7 +154,7 @@ width:35%
 padding-top:5%;
     padding-left:5%;
   width:66.6%;
-  height:auto;
+  height:100%;
 
 }
 
@@ -176,9 +175,14 @@ padding-top:5%;
     width:8%;
 }
 
-.coloricone{
-    font-size:2.9vw;
+
+.flexo{
+display:flex;
+flex-direction: column;
+
 }
+
+
 
 .iconepro{
     color:#FFC107;
@@ -209,21 +213,22 @@ img{
 .contact{
     padding-left:20%;
     height:auto;
-    flex:1;
+    
 
 }
 
 .moi{
     padding-right:20%;
     padding-left:20%;
-    height: auto;
-    flex: 2;
+    padding-bottom:100%;
+    
 }
 
 .lolo{
+    height: 20%;
     padding-top:10%;
     padding-bottom: 10%;
-    
+    font-size:2.9vw;
     text-align:center;
 
 } 
