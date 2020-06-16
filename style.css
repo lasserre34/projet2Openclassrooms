@@ -24,7 +24,7 @@ body{
         font-size: 3.5vw;
     }
 
-    h3{
+    h2{
         font-size: 1.7vw;
     }
 
@@ -45,6 +45,9 @@ color:#FFC107;
 
 
 
+
+
+
   
 section{
     width:100%;
@@ -54,56 +57,61 @@ section{
 }
 
 .element:nth-child(1){
-    
+    padding-top:5%;
     width:35%;
-
+  font-size:1.3vw;
 
 }
 .element:nth-child(2){
-
+padding-top:5%;
   width:65%;
+  font-size:1.3vw;
 }
 
 .element:nth-child(3){
-width:35%
+width:35%;
+font-size:1.3vw;
 
 }
 .element:nth-child(4){
     width:65%;
+    font-size:1.3vw;
  
     
 }
 
 .element:nth-child(5){
-    width:35%
-
+    width:35%;
+ font-size:1.3vw;
 
 }
 
 .element:nth-child(6){
     width:65%;
-
+ font-size: 1.3vw;
 }
 
 .element:nth-child(7){
     width:35%;
-
+font-size: 1.3vw;
 
 }
 
 .element:nth-child(8){
     width:65%;
-
+font-size:1.3vw;
 
 }
 .element:nth-child(9){
     
     width:35%;
+    font-size: 1.3vw;
 
 }  
 
  .element:nth-child(10){
     width:65%;
+    font-size:1.3vw;
 
  }
 
@@ -112,7 +120,7 @@ width:35%
 
 
  .reco{
-     
+     padding-top:5%;
      width:100%;
      display:flex;
  flex-wrap:wrap;
@@ -121,6 +129,7 @@ width:35%
  }
 .element2:nth-child(1){ 
     width:50%;
+    font-size:1.3vw
 }
 
     
@@ -128,7 +137,7 @@ width:35%
 
 
 .element2:nth-child(2){
-    
+    font-size:1.3vw;
     width:50%;
 }   
     
@@ -141,6 +150,8 @@ width:35%
    color:#FFC107;
     background-color:#212121;
     text-align:center;
+    font-size:2.8vw;
+
 
     
 
@@ -181,7 +192,9 @@ display:flex;
 flex-direction: column;
 
 }
-
+.entete{
+    padding-bottom:10%;
+}
 
 
 .iconepro{
@@ -212,6 +225,7 @@ img{
 }
 
 .contact{
+    font-size:1.3vw ;
     padding-left:20%;
     height:auto;
     
@@ -219,6 +233,7 @@ img{
 }
 
 .moi{
+    font-size: 1.3vw;
     padding-right:20%;
     padding-left:20%;
     padding-bottom:100%;
@@ -226,6 +241,7 @@ img{
 }
 
 .lolo{
+    font-size:1.3vw;
     padding-left:20%;
     height: 20%;
     padding-top:10%;
@@ -236,12 +252,10 @@ img{
 
 } 
 
-h2 { 
-    
-    font-size: 2.08vw;
+
     
 
-}
+
 
 .fa-table-tennis {
 
@@ -255,6 +269,7 @@ h2 {
 
 .fa-swimmer{
     display:inline-block;
+    
     width:15%;
     padding:2%;
     border-radius:50%;
@@ -273,12 +288,14 @@ h2 {
 }
 
 
-p{
+.petittitre{
     font-size: 1.3vw;
+font-weight: bold;
 }
 
-h4{
-    font-size: 1.3vw;
+.soustitre{
+    font-size:2.8vw;
+    font-weight: bold;
 }
 
 
