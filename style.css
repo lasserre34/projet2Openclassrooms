@@ -53,7 +53,8 @@ color:#FFC107;
 
 
   
-section{
+.forexp{
+    
     width:100%;
     display:flex;
     flex-wrap:wrap;
