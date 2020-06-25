@@ -241,7 +241,7 @@ aside{
 }
 
 .moi{
-    font-size: 1.3vw;
+    font-size: 1.3vw , 2.5vh;
     padding-right:20%;
     padding-left:20%;
     padding-bottom:100%;
@@ -312,20 +312,38 @@ font-weight: bold;
     font-weight: bold;
 
 }
+.titreresponsive{background-color:black;
+    text-align:center;
+    color:#FFC107;
+    display:none;
+    margin:0;
 
+}
+.responsive{display:none;
+background-color: #FFC107;}
 
 @media screen  and (max-width:600px) {
 .soustitre{font-size:2.8vw,5.7vh;
     padding-top:0; }
     .trait{margin:0;}
-    #conteneur{display:flex;
-justify-content: space-around;}
-aside{order:3}
-main{order:1;}
-.photo{order:2;}
+aside{display:none;}
     .moi{display:none}
     .titre{display:none;}
     .lolo{display:none;}
+    .titreresponsive{display:block;}
+    .responsive{display:flex;
+    flex-wrap:wrap;
+justify-content:space-around;}
+  article{display:none;}
+    .photo{display:none;}
+main{
+    padding-left:0;
+    width:100%;
+}
+   
+    
+
+
     
 
    
@@ -387,10 +405,7 @@ main{order:1;}
         font-size:1.3vw,2.5vh
     
      }
-    
-
-   
-}
+    }
 
 
 
