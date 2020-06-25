@@ -311,7 +311,9 @@ font-weight: bold;
     font-size:2.8vw, 5.7vh;
     font-weight: bold;
 
+    
 }
+.headerresponsive{display:none}
 .titreresponsive{background-color:black;
     text-align:center;
     color:#FFC107;
@@ -319,10 +321,18 @@ font-weight: bold;
     margin:0;
 
 }
+.profil2{
+    display:none;
+}
+
 .responsive{display:none;
 background-color: #FFC107;}
 
 @media screen  and (max-width:600px) {
+.header{display:inline-block;
+}
+.profil2{display:inline-block;
+width:40%;}
 .soustitre{font-size:2.8vw,5.7vh;
     padding-top:0; }
     .trait{margin:0;}
@@ -331,9 +341,7 @@ aside{display:none;}
     .titre{display:none;}
     .lolo{display:none;}
     .titreresponsive{display:block;}
-    .responsive{display:flex;
-    flex-wrap:wrap;
-justify-content:space-around;}
+    .responsive{display:block;}
   article{display:none;}
     .photo{display:none;}
 main{
@@ -404,6 +412,10 @@ main{
         width:100%;
         font-size:1.3vw,2.5vh
     
+     }
+
+     .element2:nth-child(1){
+         width:auto;
      }
     }
 
