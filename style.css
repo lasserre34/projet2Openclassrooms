@@ -415,6 +415,9 @@ main{
      }
 
      .element2:nth-child(1){
+         width:55%;
+     }
+     .element2:nth-child(2){
          width:auto;
      }
     }
