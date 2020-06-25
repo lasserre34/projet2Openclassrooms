@@ -5,6 +5,8 @@ body{
     
     
     
+    
+    
 
     
     
@@ -28,11 +30,11 @@ header{
 
 
     h1{
-        font-size: 3.5vw;
+        font-size: 3.5vw , 7.1vh;
     }
 
     h2{
-        font-size: 1.7vw;
+        font-size: 1.7vw , 3.5vh ;
     }
 
 .gauthier{
@@ -68,59 +70,59 @@ article{
 .element:nth-child(1){
 
     width:35%;
-  font-size:1.3vw;
+  font-size:1.3vw 2.5 vh;
 
 }
 .element:nth-child(2){
 
   width:65%;
-  font-size:1.3vw;
+  font-size:1.3vw 2.5 vh;
 }
 
 .element:nth-child(3){
 width:35%;
-font-size:1.3vw;
+font-size:1.3vw 2.5vh;
 
 }
 .element:nth-child(4){
-    width:65%;
-    font-size:1.3vw;
+    width:65%; 
+    font-size:1.3vw 2.5vh;
  
     
 }
 
 .element:nth-child(5){
     width:35%;
- font-size:1.3vw;
+ font-size:1.3vw 2.5vh;
 
 }
 
 .element:nth-child(6){
     width:65%;
- font-size: 1.3vw;
+ font-size: 1.3vw 2.5vh;
 }
 
 .element:nth-child(7){
     width:35%;
-font-size: 1.3vw;
+font-size: 1.3vw ,2.5vh;
 
 }
 
 .element:nth-child(8){
     width:65%;
-font-size:1.3vw;
+font-size:1.3vw , 2.5vh;
 
 }
 .element:nth-child(9){
     
     width:35%;
-    font-size: 1.3vw;
+    font-size: 1.3vw ,2.5vh;
 
 }  
 
  .element:nth-child(10){
     width:65%;
-    font-size:1.3vw;
+    font-size:1.3vw ,2.5vh;
 
  }
 
@@ -138,7 +140,7 @@ font-size:1.3vw;
  }
 .element2:nth-child(1){ 
     width:50%;
-    font-size:1.3vw
+    font-size:1.3vw , 2.5vh;
 }
 
     
@@ -146,7 +148,7 @@ font-size:1.3vw;
 
 
 .element2:nth-child(2){
-    font-size:1.3vw;
+    font-size:1.3vw, 2.5vh;
     width:50%;
 }   
     
@@ -159,7 +161,7 @@ font-size:1.3vw;
    color:#FFC107;
     background-color:#212121;
     text-align:center;
-    font-size:2.8vw;
+    font-size:2.8vw,5.7vh ;
 
 
     
@@ -231,7 +233,7 @@ img{
 }
 
 aside{
-    font-size:1.3vw ;
+    font-size:1.3vw , 2.5vh ;
     padding-left:20%;
     height:auto;
     
@@ -300,23 +302,94 @@ aside{
 
 
 .petittitre{
-    font-size: 1.3vw;
+    font-size: 1.3vw , 2.5vh;
 font-weight: bold;
 }
 
 .soustitre{
     padding-top: 3%;
-    font-size:2.8vw;
+    font-size:2.8vw, 5.7vh;
     font-weight: bold;
+
 }
 
-@media (max-height:480px) and (max-width:320px) {
-.soustitre{
-    padding-top:0;}
+
+@media screen  and (max-width:600px) {
+.soustitre{font-size:2.8vw,5.7vh;
+    padding-top:0; }
     .trait{margin:0;}
-    body{max-height:480px;}
-    main{height:480px;}
-    article{height:480px;}
+    #conteneur{display:flex;
+justify-content: space-around;}
+aside{order:3}
+main{order:1;}
+.photo{order:2;}
+    .moi{display:none}
+    .titre{display:none;}
+    .lolo{display:none;}
+    
+
+   
+    .element:nth-child(1){
+
+    width:auto;
+      font-size:1.3vw, 2.5vh;
+    
+    }
+    .element:nth-child(2){
+    width:100%;
+    
+      font-size:1.3vw, 2.5vh;
+    }
+    
+    .element:nth-child(3){
+    width:auto;
+    font-size:1.3vw,2.5vh
+    
+    }
+    .element:nth-child(4){
+        width:auto;
+        font-size:1.3vw,2.5vh
+     
+        
+    }
+    
+    .element:nth-child(5){
+     width:auto;
+     font-size:1.3vw,2.5vh
+    
+    }
+    
+    .element:nth-child(6){
+    width:100%;
+     font-size: 1.3vw,2.5vh
+    }
+    
+    .element:nth-child(7){
+    width:auto;
+    font-size: 1.3vw,2.5vh
+    
+    }
+    
+    .element:nth-child(8){
+        width:auto;
+    font-size:1.3vw,2.5vh
+    
+    }
+    .element:nth-child(9){
+        
+        width:auto;
+        font-size: 1.3vw,2.5vh
+    
+    }  
+    
+     .element:nth-child(10){
+        width:100%;
+        font-size:1.3vw,2.5vh
+    
+     }
+    
+
+   
 }
 
 
