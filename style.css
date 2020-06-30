@@ -313,7 +313,8 @@ font-weight: bold;
 
     
 }
-.headerresponsive{display:none}
+.headerresponsive{display:none;
+padding-left:10%;}
 .titreresponsive{background-color:black;
     text-align:center;
     color:#FFC107;
@@ -328,13 +329,21 @@ font-weight: bold;
 .responsive{display:none;
 background-color: #FFC107;}
 
-@media screen  and (max-width:600px) {
+.moiresponsive{display:none;
+background-color:#FFC107;}
+
+.loloresponsive{display:none;
+background-color:#FFC107;}
+
+@media screen  and (max-width:420px) {
 .header{display:inline-block;
+
 }
 .profil2{display:inline-block;
 width:40%;}
 .soustitre{font-size:2.8vw,5.7vh;
-    padding-top:0; }
+    padding-top:0;
+padding-left:10%; }
     .trait{margin:0;}
 aside{display:none;}
     .moi{display:none}
@@ -344,11 +353,58 @@ aside{display:none;}
     .responsive{display:block;}
   article{display:none;}
     .photo{display:none;}
+    .moiresponsive{display:block;}
+    .loloresponsive{display:block;
+    padding-top:5%;
+padding-bottom:5%;}
 main{
     padding-left:0;
     width:100%;
 }
-   body{margin:0;}
+   body{margin:0;
+max-width:420px;
+width:100%}
+
+footer{text-align:center;}
+
+.reco{ padding-left:20%;}
+
+
+.fa-table-tennis {
+
+    display:inline-block;
+    width:5%;
+    padding:4%;
+    border-radius:50%;
+    border: 2px solid black;
+    
+}
+
+.fa-swimmer{
+    display:inline-block;
+    padding:4%;
+    padding-bottom: 4%;
+     padding-right:4%;
+     padding-left: 3%;
+     padding-top:4%;
+    width:5%;
+    border-radius:50%;
+    border: 2px solid black;
+
+
+}
+
+.fa-biking{
+    display: inline-block;
+    width:5%;
+    padding-right:4%;
+    padding-bottom:4%;
+    padding-top: 4%;
+    padding-left:3%;
+    border-radius:50%;
+    border: 2px solid black;
+
+}
     
 
 
@@ -363,18 +419,20 @@ main{
     }
     .element:nth-child(2){
     width:100%;
-    
+    text-align:center;
       font-size:1.3vw, 2.5vh;
     }
     
     .element:nth-child(3){
     width:auto;
     font-size:1.3vw,2.5vh
+
     
     }
     .element:nth-child(4){
         width:auto;
-        font-size:1.3vw,2.5vh
+        font-size:1.3vw,2.5vh;
+        text-align:center
      
         
     }
@@ -387,7 +445,8 @@ main{
     
     .element:nth-child(6){
     width:100%;
-     font-size: 1.3vw,2.5vh
+     font-size: 1.3vw,2.5vh;
+     text-align:center;
     }
     
     .element:nth-child(7){
@@ -398,7 +457,8 @@ main{
     
     .element:nth-child(8){
         width:auto;
-    font-size:1.3vw,2.5vh
+    font-size:1.3vw,2.5vh;
+    text-align:center;
     
     }
     .element:nth-child(9){
@@ -410,15 +470,18 @@ main{
     
      .element:nth-child(10){
         width:100%;
-        font-size:1.3vw,2.5vh
+        font-size:1.3vw,2.5vh;
+        text-align:center;
     
      }
 
      .element2:nth-child(1){
          width:55%;
+         text-align:center;
      }
      .element2:nth-child(2){
          width:auto;
+         text-align:center;
      }
     }
 
