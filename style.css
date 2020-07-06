@@ -350,7 +350,7 @@ header{display:inline-block;
 width:40%;}
 .soustitre{font-size:2.8vw,5.7vh;
     padding-top:0;
-padding-left:10%; }
+text-align:center; }
     .trait{margin:0;}
 aside{display:none;}
     .moi{display:none}
@@ -516,9 +516,9 @@ footer{text-align:center;}
     
         main{
             padding-left:1%;
+            width:100%;
         }
            body{margin:0;
-        max-width:800px;
         width:100%}
         
         
@@ -527,7 +527,6 @@ footer{text-align:center;}
         .fa-table-tennis {
         
             display:inline-block;
-            width:10%;
             padding:4%;
             border-radius:50%;
             border: 2px solid black;
@@ -541,7 +540,6 @@ footer{text-align:center;}
              padding-right:4%;
              padding-left: 3%;
              padding-top:4%;
-            width:10%;
             border-radius:50%;
             border: 2px solid black;
         
@@ -550,7 +548,6 @@ footer{text-align:center;}
         
         .fa-biking{
             display:inline-block ;
-            width:10%;
             padding-right:4%;
             padding-bottom:4%;
             padding-top: 4%;
