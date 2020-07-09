@@ -5,6 +5,7 @@
 body{
     font-family: Arial, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     width:100%;
+    margin:0;
     
     
     
@@ -61,7 +62,6 @@ article{
 
 
 
-
   
 .forexp{
     
@@ -75,7 +75,7 @@ article{
 
     width:35%;
   font-size:1.3vw 2.5 vh;
-
+font-weight:bold;
 }
 .element:nth-child(2){
 
@@ -86,7 +86,7 @@ article{
 .element:nth-child(3){
 width:35%;
 font-size:1.3vw 2.5vh;
-
+font-weight:bold;
 }
 .element:nth-child(4){
     width:65%; 
@@ -98,7 +98,7 @@ font-size:1.3vw 2.5vh;
 .element:nth-child(5){
     width:35%;
  font-size:1.3vw 2.5vh;
-
+font-weight:bold;
 }
 
 .element:nth-child(6){
@@ -109,7 +109,7 @@ font-size:1.3vw 2.5vh;
 .element:nth-child(7){
     width:35%;
 font-size: 1.3vw ,2.5vh;
-
+font-weight:bold;
 }
 
 .element:nth-child(8){
@@ -318,7 +318,8 @@ font-weight: bold;
     
 }
 .headerresponsive{display:none;
-padding-left:10%;}
+text-align:center;
+}
 .titreresponsive{background-color:black;
     text-align:center;
     color:#FFC107;
@@ -343,11 +344,12 @@ background-color:#FFC107;}
 
 @media screen  and (max-width:646px) {
 header{display:inline-block;
-    padding-left:10%;
+    text-align:center;
 
 }
-.profil2{display:inline-block;
-width:40%;}
+.profil2{display:block;
+    padding-left:20%;
+}
 .soustitre{font-size:2.8vw,5.7vh;
     padding-top:0;
 text-align:center; }
@@ -357,7 +359,8 @@ aside{display:none;}
     .titre{display:none;}
     .lolo{display:none;}
     .titreresponsive{display:block;}
-    .responsive{display:block;}
+    .responsive{display:block;
+    padding-top:2%;}
   article{display:none;}
     .photo{display:none;}
     .moiresponsive{display:block;}
@@ -369,7 +372,6 @@ main{
     width:100%;
 }
    body{margin:0;
-max-width:420px;
 width:100%}
 
 footer{text-align:center;}
@@ -519,7 +521,7 @@ footer{text-align:center;}
             width:100%;
         }
            body{margin:0;
-        width:100%}
+        width:100%; }
         
         
         
