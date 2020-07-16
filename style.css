@@ -75,7 +75,7 @@ article{
 
     width:35%;
   font-size:1.3vw 2.5 vh;
-font-weight:bold;
+
 }
 .element:nth-child(2){
 
@@ -86,7 +86,7 @@ font-weight:bold;
 .element:nth-child(3){
 width:35%;
 font-size:1.3vw 2.5vh;
-font-weight:bold;
+
 }
 .element:nth-child(4){
     width:65%; 
@@ -98,7 +98,7 @@ font-weight:bold;
 .element:nth-child(5){
     width:35%;
  font-size:1.3vw 2.5vh;
-font-weight:bold;
+
 }
 
 .element:nth-child(6){
@@ -109,7 +109,7 @@ font-weight:bold;
 .element:nth-child(7){
     width:35%;
 font-size: 1.3vw ,2.5vh;
-font-weight:bold;
+
 }
 
 .element:nth-child(8){
@@ -223,17 +223,9 @@ padding-top:5%;
 }
 
 .photo{
-    padding-top: 10%;
-height:auto;
-text-align:center;
 
 
-
-
-}
-img{
-
-    
+   
 }
 
 aside{
@@ -342,14 +334,14 @@ background-color:#FFC107;}
 
 /*  RESPONSIVE MOBILE*/
 
-@media screen  and (max-width:646px) {
+@media screen  and (max-width:736px) {
 header{display:inline-block;
     text-align:center;
     width:100%;
 
 }
-.profil2{display:block;
-    padding-left:25%;
+.profil2{display:inline-block;
+   
 }
 .soustitre{font-size:2.8vw,5.7vh;
     padding-top:0;
@@ -435,14 +427,16 @@ footer{text-align:center;}
     
     .element:nth-child(3){
     text-align: center;
-    font-size:1.3vw,2.5vh
+    font-size:1.3vw,2.5vh;
+    width:100%
 
     
     }
     .element:nth-child(4){
         width:auto;
         font-size:1.3vw,2.5vh;
-        text-align:center
+        text-align:center;
+        width:100%;
      
         
     }
@@ -498,149 +492,4 @@ footer{text-align:center;}
 
     /* RESPONSIVE TABLETTE*/
 
-    @media screen  and  (max-width:800px) and (min-width:646px) {
-        
-        .soustitre{font-size:2.8vw,5.7vh;
-            padding-top:0;
-        padding-left:10%; }
-            .trait{margin:0;}
-        aside{display:block;}
-            .moi{display:block;
-            padding-bottom: 150%;}                      
-          article{display:block;
-        width:40%}
-        header{padding-left:20%;}
-            .photo{display:block;
-            padding-bottom:20%;
-        padding-top:20%;}
-        
-
     
-    
-        main{
-            padding-left:1%;
-            width:100%;
-        }
-           body{margin:0;
-        width:100%; }
-        
-        
-        
-        
-        .fa-table-tennis {
-        
-            display:inline-block;
-            padding:4%;
-            border-radius:50%;
-            border: 2px solid black;
-            
-        }
-        
-        .fa-swimmer{
-            display:inline-block;
-            padding:4%;
-            padding-bottom: 4%;
-             padding-right:4%;
-             padding-left: 3%;
-             padding-top:4%;
-            border-radius:50%;
-            border: 2px solid black;
-        
-        
-        }
-        
-        .fa-biking{
-            display:inline-block ;
-            padding-right:4%;
-            padding-bottom:4%;
-            padding-top: 4%;
-            padding-left:3%;
-            border-radius:50%;
-            border: 2px solid black;
-        
-        }
-            
-        
-        
-            
-        
-           
-            .element:nth-child(1){
-        
-            width:auto;
-              font-size:1.3vw, 2.5vh;
-            
-            }
-            .element:nth-child(2){
-            width:100%;
-            text-align:center;
-              font-size:1.3vw, 2.5vh;
-            }
-            
-            .element:nth-child(3){
-            width:auto;
-            font-size:1.3vw,2.5vh
-        
-            
-            }
-            .element:nth-child(4){
-                width:auto;
-                font-size:1.3vw,2.5vh;
-                text-align:center
-             
-                
-            }
-            
-            .element:nth-child(5){
-             width:auto;
-             font-size:1.3vw,2.5vh
-            
-            }
-            
-            .element:nth-child(6){
-            width:100%;
-             font-size: 1.3vw,2.5vh;
-             text-align:center;
-            }
-            
-            .element:nth-child(7){
-            width:auto;
-            font-size: 1.3vw,2.5vh
-            
-            }
-            
-            .element:nth-child(8){
-                width:auto;
-            font-size:1.3vw,2.5vh;
-            text-align:center;
-            
-            }
-            .element:nth-child(9){
-                
-                width:auto;
-                font-size: 1.3vw,2.5vh
-            
-            }  
-            
-             .element:nth-child(10){
-                width:100%;
-                font-size:1.3vw,2.5vh;
-                text-align:center;
-            
-             }
-        
-             .element2:nth-child(1){
-                 width:55%;
-                 text-align:center;
-             }
-             .element2:nth-child(2){
-                 width:auto;
-                 text-align:center;
-             }
-            }
-        
-        
-        
-        
-
-
