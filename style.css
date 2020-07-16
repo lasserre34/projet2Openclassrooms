@@ -232,7 +232,7 @@ text-align:center;
 
 }
 img{
-    width: 60%;
+
     
 }
 
@@ -345,10 +345,11 @@ background-color:#FFC107;}
 @media screen  and (max-width:646px) {
 header{display:inline-block;
     text-align:center;
+    width:100%;
 
 }
 .profil2{display:block;
-    padding-left:20%;
+    padding-left:25%;
 }
 .soustitre{font-size:2.8vw,5.7vh;
     padding-top:0;
@@ -376,7 +377,7 @@ width:100%}
 
 footer{text-align:center;}
 
-.reco{ padding-left:20%;}
+.reco{justify-content: center;}
 
 
 .fa-table-tennis {
@@ -433,7 +434,7 @@ footer{text-align:center;}
     }
     
     .element:nth-child(3){
-    width:auto;
+    text-align: center;
     font-size:1.3vw,2.5vh
 
     
@@ -505,7 +506,7 @@ footer{text-align:center;}
             .trait{margin:0;}
         aside{display:block;}
             .moi{display:block;
-            padding-bottom: 200%;}                      
+            padding-bottom: 150%;}                      
           article{display:block;
         width:40%}
         header{padding-left:20%;}
