@@ -34,7 +34,13 @@ header{
 }
 
 
-  
+    h1{
+        font-size: 3.5vw , 7.1vh;
+    }
+
+    h2{
+        font-size: 1.7vw , 3.5vh ;
+    }
 
 .gauthier{
 color:#FFC107;
@@ -65,9 +71,64 @@ article{
  justify-content: space-around;
 }
 
-.element{
-    width:50%;
+.element:nth-child(1){
+
+    width:35%;
+  font-size:1.3vw 2.5 vh;
+
 }
+.element:nth-child(2){
+
+  width:65%;
+  font-size:1.3vw 2.5 vh;
+}
+
+.element:nth-child(3){
+width:35%;
+font-size:1.3vw 2.5vh;
+
+}
+.element:nth-child(4){
+    width:65%; 
+    font-size:1.3vw 2.5vh;
+ 
+    
+}
+
+.element:nth-child(5){
+    width:35%;
+ font-size:1.3vw 2.5vh;
+
+}
+
+.element:nth-child(6){
+    width:65%;
+ font-size: 1.3vw 2.5vh;
+}
+
+.element:nth-child(7){
+    width:35%;
+font-size: 1.3vw ,2.5vh;
+
+}
+
+.element:nth-child(8){
+    width:65%;
+font-size:1.3vw , 2.5vh;
+
+}
+.element:nth-child(9){
+    
+    width:35%;
+    font-size: 1.3vw ,2.5vh;
+
+}  
+
+ .element:nth-child(10){
+    width:65%;
+    font-size:1.3vw ,2.5vh;
+
+ }
 
  
  
@@ -77,16 +138,22 @@ article{
      
      width:100%;
      display:flex;
- flex-wrap:wrap;}
+ flex-wrap:wrap;
  
 
-
+ }
+.element2:nth-child(1){ 
+    width:50%;
+    font-size:1.3vw , 2.5vh;
+}
 
     
 
 
 
-.element2{ width:50%;
+.element2:nth-child(2){
+    font-size:1.3vw, 2.5vh;
+    width:50%;
 }   
     
 
@@ -98,7 +165,7 @@ article{
    color:#FFC107;
     background-color:#212121;
     text-align:center;
-
+    font-size:2.8vw,5.7vh ;
 
 
     
@@ -155,10 +222,14 @@ padding-top:5%;
 
 }
 
+.photo{
 
+
+   
+}
 
 aside{
-    
+    font-size:1.3vw , 2.5vh ;
     padding-left:20%;
     height:auto;
     
@@ -166,7 +237,7 @@ aside{
 }
 
 .moi{
-
+    font-size: 1.3vw , 2.5vh;
     padding-right:20%;
     padding-left:20%;
     padding-bottom:100%;
@@ -174,7 +245,7 @@ aside{
 }
 
 .lolo{
-    
+    font-size:1.3vw;
     padding-left:15%;
     padding-top:10%;
     padding-bottom: 10%;
@@ -337,7 +408,86 @@ footer{text-align:center;}
 
 }
     
- }
+
+
+    
+
+   
+    .element:nth-child(1){
+
+    width:auto;
+      font-size:1.3vw, 2.5vh;
+    
+    }
+    .element:nth-child(2){
+    width:100%;
+    text-align:center;
+      font-size:1.3vw, 2.5vh;
+    }
+    
+    .element:nth-child(3){
+    text-align: center;
+    font-size:1.3vw,2.5vh;
+    width:100%
+
+    
+    }
+    .element:nth-child(4){
+        width:auto;
+        font-size:1.3vw,2.5vh;
+        text-align:center;
+        width:100%;
+     
+        
+    }
+    
+    .element:nth-child(5){
+     width:auto;
+     font-size:1.3vw,2.5vh
+    
+    }
+    
+    .element:nth-child(6){
+    width:100%;
+     font-size: 1.3vw,2.5vh;
+     text-align:center;
+    }
+    
+    .element:nth-child(7){
+    width:auto;
+    font-size: 1.3vw,2.5vh
+    
+    }
+    
+    .element:nth-child(8){
+        width:auto;
+    font-size:1.3vw,2.5vh;
+    text-align:center;
+    
+    }
+    .element:nth-child(9){
+        
+        width:auto;
+        font-size: 1.3vw,2.5vh
+    
+    }  
+    
+     .element:nth-child(10){
+        width:100%;
+        font-size:1.3vw,2.5vh;
+        text-align:center;
+    
+     }
+
+     .element2:nth-child(1){
+         width:55%;
+         text-align:center;
+     }
+     .element2:nth-child(2){
+         width:auto;
+         text-align:center;
+     }
+    }
 
 
     /* RESPONSIVE TABLETTE*/
