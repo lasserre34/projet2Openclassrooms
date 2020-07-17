@@ -222,13 +222,25 @@ padding-top:5%;
 
 }
 
-.photo{
 
+   .photo{
+       padding-left: 10%;
+       padding-top:5%;
+   }
+
+
+.prof1{
+      width:80%;
+      border:solid 5px #FFCA28 ;
+      border-radius:50%;
+}
+ 
 
    
-}
+
 
 aside{
+    
     font-size:1.3vw , 2.5vh ;
     padding-left:20%;
     height:auto;
@@ -334,7 +346,7 @@ background-color:#FFC107;}
 
 /*  RESPONSIVE MOBILE*/
 
-@media screen  and (max-width:736px) {
+@media screen  and (max-width:740px) {
 header{display:inline-block;
     text-align:center;
     width:100%;
@@ -375,10 +387,11 @@ footer{text-align:center;}
 .fa-table-tennis {
 
     display:inline-block;
-    width:5%;
+    width:auto;
     padding:4%;
     border-radius:50%;
     border: 2px solid black;
+    font-size:30px;
     
 }
 
@@ -389,23 +402,23 @@ footer{text-align:center;}
      padding-right:4%;
      padding-left: 3%;
      padding-top:4%;
-    width:5%;
+    width:auto;
     border-radius:50%;
     border: 2px solid black;
-
+   font-size: 30px;
 
 }
 
 .fa-biking{
     display: inline-block;
-    width:5%;
+    width:auto;
     padding-right:4%;
     padding-bottom:4%;
     padding-top: 4%;
     padding-left:3%;
     border-radius:50%;
     border: 2px solid black;
-
+    font-size: 30px;
 }
     
 
@@ -491,5 +504,13 @@ footer{text-align:center;}
 
 
     /* RESPONSIVE TABLETTE*/
-
+@media screen and (min-width:740px) and (max-width:850px){
     
+    .moi{
+
+        padding-bottom:180%;
+
+    }
+
+}
+
